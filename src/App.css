@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+.todo {
+  height: auto;
+  width: auto;
+  color: white;
+  background: #023e8a;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.todo .text-centers {
+  text-align: center;
+
+  margin: 18px;
+  font-size: xx-large;
+}
+.todo .input {
+  font-size: larger;
+  width: 800px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  text-align: center;
+  color: #023e8a;
+  margin-bottom: 20px;
+}
+.btn2 {
+  height: 60px;
+  width: 150px;
+  background-color: aliceblue;
+  color: #023e8a;
+  margin: 0 auto;
+}
+.displays {
+  margin-top: 20px;
+}
+.todo-item {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.material-icons {
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+  /* margin: 10px; */
+}
+.delete-btn {
+  background-color: #ade8f4;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 70px;
+  margin-top: 20px;
+}
+.navbar-brand {
+  font-weight: 900;
+  color: #023e8a;
+  margin: 3px;
+}
+.login {
+  margin-top: 20px;
+  height: 500px;
+  width: 400px;
+  color: white;
+  background: #023e8a;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.form {
+  display: block;
+}
+.form .email {
+  height: 60px;
+  width: 300px;
+  margin: 26px;
+}
+.form .pass {
+  height: 60px;
+  width: 300px;
+  margin: 26px;
+}
+.btn-login {
+  width: 350px;
+  margin-top: 50px;
+  height: 50px;
+  color: #023e8a;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.register {
+  margin-top: 20px;
+  height: 500px;
+  width: 400px;
+  color: white;
+  background: #023e8a;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
